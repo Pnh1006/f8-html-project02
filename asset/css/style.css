@@ -613,3 +613,93 @@ a {
 .blog-item .dot {
   margin-right: 4px;
 }
+
+/* Footer */
+.footer {
+  background: #2e2100;
+  height: 428px;
+}
+
+.footer-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-item {
+  margin-top: 96px;
+}
+
+.footer-item .title {
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1.75;
+  text-align: left;
+  color: #ffffff;
+}
+
+.footer-item .desc {
+  margin-top: 18px;
+  font-size: 1.4rem;
+  line-height: 1.84;
+  text-align: left;
+  color: #bfbcb2;
+}
+
+.footer-item .social {
+  margin-top: 18px;
+  display: flex;
+}
+
+.footer-item .social-item {
+  margin-right: 18px;
+}
+
+.footer-item .item {
+  display: block;
+  margin-top: 14px;
+  font-size: 1.4;
+  text-align: left;
+  color: #bfbcb2;
+}
+
+.footer-item .line {
+  margin-top: 14px;
+  width: 130px;
+  height: 1px;
+  background: #59554b;
+  margin-bottom: 14px;
+}
+
+.footer-item:first-child {
+  width: 245px;
+}
+
+.footer-item:last-child strong {
+  font-weight: bold;
+}
+
+.footer-item:last-child p {
+  font-size: 1.4;
+  line-height: 1.84;
+  text-align: left;
+  color: #bfbcb2;
+}
+
+.footer-item:last-child {
+  padding-bottom: 28px;
+}
+
+.line-end {
+  width: 1170px;
+  height: 1px;
+  background: #59554b;
+  margin-top: 38px;
+  margin-bottom: 28px;
+}
+
+.creator {
+  font-size: 1.4;
+  line-height: 1.84;
+  text-align: center;
+  color: #807d74;
+}
